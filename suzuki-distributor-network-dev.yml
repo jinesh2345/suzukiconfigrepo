@@ -1,12 +1,10 @@
 ---
 spring:
-  application:
-    name: suzuki-distributor-network
   datasource:
-      driver-class-name: com.mysql.cj.jdbc.Driver
-      url: jdbc:mysql://localhost:3306/distributorntwkdb
-      username: root
-      password: Jinesh@123
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/distributorntwkdb
+    username: root
+    password: Jinesh@123
   jpa:
     show-sql: true
 network:
