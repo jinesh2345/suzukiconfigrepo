@@ -9,5 +9,5 @@ spring:
     show-sql: true
 network:
   businessType: retailer
-  locationType: local and global
+  locationType: local
 ...
